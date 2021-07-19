@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <me.chenhe.wearvision.preference.ListPreference
+        android:entries="@array/preference"
+        android:entryValues="@array/preference_values"
+        app:dialogIcon="@drawable/warning"
+        app:dialogMessage="You can custom dialog message here."
+        app:icon="@drawable/ic_start"
+        app:key="list"
+        app:title="List Preference"
+        app:useSimpleSummaryProvider="true" />
+
+    <SwitchPreferenceCompat
+        app:key="switch"
+        app:title="Switch Preference" />
+</PreferenceScreen>

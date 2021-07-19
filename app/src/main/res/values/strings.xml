@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">WearVision Demo</string>
+    <string name="wear_vision" translatable="false">Wear Vision</string>
+    <string name="dialogs">Dialogs</string>
+    <string name="choice_dialogs">Choice Dialogs</string>
+
+    <string-array name="preference">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+
+    <string-array name="preference_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

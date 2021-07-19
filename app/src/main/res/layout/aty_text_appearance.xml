@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/wv_page_horizontal_padding"
+        android:layout_marginEnd="@dimen/wv_page_horizontal_padding"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/wv_page_vertical_padding">
+
+        <TextView
+            style="@style/WindowAppBarContent.WearVision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Text Appearance"
+            android:textAppearance="@style/TextAppearance.WearVision.WindowTitle" />
+
+        <TextView
+            style="@style/TextAppearanceView"
+            android:layout_marginTop="0dp"
+            android:text="Headline"
+            android:textAppearance="@style/TextAppearance.WearVision.Headline" />
+
+        <TextView
+            style="@style/TextAppearanceView"
+            android:layout_marginTop="0dp"
+            android:text="Subhead"
+            android:textAppearance="@style/TextAppearance.WearVision.Subhead" />
+
+        <TextView
+            style="@style/TextAppearanceView"
+            android:layout_marginTop="0dp"
+            android:text="Body1"
+            android:textAppearance="@style/TextAppearance.WearVision.Body1" />
+
+        <TextView
+            style="@style/TextAppearanceView"
+            android:layout_marginTop="0dp"
+            android:text="Body2"
+            android:textAppearance="@style/TextAppearance.WearVision.Body2" />
+
+        <TextView
+            style="@style/TextAppearanceView"
+            android:layout_marginTop="0dp"
+            android:text="Title"
+            android:textAppearance="@style/TextAppearance.WearVision.Title" />
+
+        <TextView
+            style="@style/TextAppearanceView"
+            android:layout_marginTop="0dp"
+            android:text="Caption"
+            android:textAppearance="@style/TextAppearance.WearVision.Caption" />
+
+        <TextView
+            style="@style/TextAppearanceView"
+            android:layout_marginTop="0dp"
+            android:text="Window Title"
+            android:textAppearance="@style/TextAppearance.WearVision.WindowTitle" />
+
+        <TextView
+            style="@style/TextAppearanceView"
+            android:layout_marginTop="0dp"
+            android:text="Window Title Small"
+            android:textAppearance="@style/TextAppearance.WearVision.WindowTitle.Small" />
+
+        <TextView
+            style="@style/TextAppearanceView"
+            android:layout_marginTop="0dp"
+            android:text="Window Title Large"
+            android:textAppearance="@style/TextAppearance.WearVision.WindowTitle.Large" />
+    </LinearLayout>
+</ScrollView>

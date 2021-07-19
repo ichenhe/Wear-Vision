@@ -1,0 +1,30 @@
+* text=auto
+
+*.sql text
+*.kt text
+*.xml text
+*.md text
+*.java text
+*.properties text
+*.txt text
+LICENSE text
+*.yaml text
+*.yml text
+
+# windows
+*.bat text eol=crlf
+*.exe binary
+*.dll binary
+
+# linux
+gradlew text eol=lf
+*.so binary
+
+*.class binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.jar binary
+*.aar binary
