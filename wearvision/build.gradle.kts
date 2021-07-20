@@ -3,6 +3,8 @@ plugins {
     id("kotlin-android")
     id("kotlin-parcelize")
     id("kotlin-kapt")
+
+    id("com.vanniktech.maven.publish")
 }
 
 android {
@@ -11,8 +13,6 @@ android {
     defaultConfig {
         minSdkVersion(21)
         targetSdkVersion(30)
-        versionCode(1)
-        versionName("1.0")
 
         consumerProguardFiles("consumer-rules.pro")
     }
@@ -51,4 +51,8 @@ dependencies {
     implementation("com.google.android.support:wearable:2.8.1")
     compileOnly("com.google.android.wearable:wearable:2.8.1")
     implementation("androidx.recyclerview:recyclerview:1.2.1")
+}
+
+mavenPublish {
+    sonatypeHost = com.vanniktech.maven.publish.SonatypeHost.S01
 }
