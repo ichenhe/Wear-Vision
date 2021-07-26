@@ -11,7 +11,7 @@ A library that helps you easily build a unified watch application UI. min sdk ve
 ## Usage
 
 ```kotlin
-implementation("me.chenhe.wearvision:0.1.0")
+implementation("me.chenhe:wearvision:${version}")
 ```
 
 ### App Theme
