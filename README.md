@@ -1,5 +1,7 @@
 # Wear Vision
 
+[![](https://img.shields.io/maven-central/v/me.chenhe/wearvision?style=flat-square)](https://search.maven.org/artifact/me.chenhe/wearvision)
+
 > ⚠️Warning: This is a library under development, please do not use it in the production environment.
 >
 > ⚠️警告：此库正在开发中，请勿用于生产环境。
